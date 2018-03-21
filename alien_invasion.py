@@ -34,7 +34,7 @@ def run_game():
 	clock=pygame.time.Clock()
 
 	while True:
-		clock.tick(60)
+		clock.tick(90)
 #		print(clock.get_fps())
 		gf.check_events(ai_settings, screen, stats,sb, play_button,\
 		ship, aliens, bullets)
